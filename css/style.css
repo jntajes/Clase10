@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+main {
+    display: block;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+header {
+    position: sticky;
+    top: 38px;    
+}
+
+header p {
+    display: inline-block;
+    position:relative;
+    background-color: #1CD1B0;
+    width: 1024px;
+    height: 38px;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 28px;
+    padding-top: 10px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+h1 {
+    position: relative;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 101px;
+    width: 1024px;
+    padding: 28px;
+}
+
+.corazon1 {
+    position: absolute;
+    left: 53px;
+    top: 308.88px;
+    z-index: 1000;
+}
+
+.fondo-bat1 {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+}
+
+.perfil-bat1 {
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 421px;
+    z-index: 100;
+}
+
+.perfil-bat1 img {
+    border-radius: 100%;
+}
+
+.articulo1 {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 32px;
+    top: 485px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitulo1 {
+    position: relative;
+    width: 122px;
+    height: 35px;
+    left: 89px;
+    top: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+    z-index: 50000;
+}
+
+.parrafo1 {
+    position: relative;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 118px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.vermas1 {
+    display: inline-block;
+    position: relative;
+    width: 122px;
+    height: 35px;
+    left: 85px;
+    top: 142px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #F3F3F3;
+    z-index: 50000;
+    background-color: #00669F;
+    padding: 15px;
+    margin: 0;
+}
+
+.corazon2 {
+    position: absolute;
+    left: 377.88px;
+    top: 314px;
+    z-index: 10;
+}
+
+.fondo-harley {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 362px;
+    top: 293px;
+}
+
+.perfil-harley {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 451px;
+    top: 419px;
+    z-index: 100;
+}
+
+.perfil-harley img {
+    border-radius: 100%;
+}
+
+.articulo2 {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 362px;
+    top: 485px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitulo2 {
+    position: relative;
+    width: 200px;
+    height: 35px;
+    left: 65px;
+    top: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+    z-index: 50000;
+}
+
+.parrafo2 {
+    position: relative;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 118px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.vermas2 {
+    display: inline-block;
+    position: relative;
+    width: 122px;
+    height: 35px;
+    left: 85px;
+    top: 142px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #F3F3F3;
+    z-index: 50000;
+    background-color: #00669F;
+    padding: 15px;
+    margin: 0;
+}
+
+.corazon3 {
+    position: absolute;
+    left: 713px;
+    top: 309.88px;
+    z-index: 10;
+}
+
+.fondo-bat2 {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 692px;
+    top: 294px;
+}
+
+.perfil-bat2 {
+    position: absolute;
+    width: 122px;
+    height: 120px;
+    left: 781px;
+    top: 420px;
+    z-index: 100;
+}
+
+.perfil-bat2 img {
+    border-radius: 100%;
+}
+
+.articulo3 {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 692px;
+    top: 486px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitulo3 {
+    position: relative;
+    width: 200px;
+    height: 35px;
+    left: 89px;
+    top: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+    z-index: 50000;
+}
+
+.parrafo3 {
+    position: relative;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 118px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.vermas3 {
+    display: inline-block;
+    position: relative;
+    width: 122px;
+    height: 35px;
+    left: 85px;
+    top: 142px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #F3F3F3;
+    z-index: 50000;
+    background-color: #00669F;
+    padding: 15px;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+    position: relative;
+    width: 337px;
+    height: 19px;
+    left: 16px;
+    top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFF9F9;
+    z-index: 100;
+}
