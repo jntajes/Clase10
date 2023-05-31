@@ -11,32 +11,19 @@ main {
 }
 
 header {
-    position: sticky;
-    top: 38px;    
-}
-
-header p {
-    display: inline-block;
-    position:relative;
     background-color: #1CD1B0;
-    width: 1024px;
-    height: 38px;
     font-size: 15px;
-    line-height: 18px;
-    padding-left: 28px;
-    padding-top: 10px;
-    left: 0;
-    top: 0;
-    bottom: 0;
+    padding: 10px 886px 10px 27px;
 }
 
-h1 {
-    position: relative;
+.heroes {
     background-color: #00669F;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    height: 101px;
-    width: 1024px;
+    position: sticky;
+    top: 0;
+    font-size: 40px;
     padding: 28px;
+    z-index: 100;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
 .corazon1 {
@@ -111,23 +98,15 @@ h1 {
 
 .vermas1 {
     display: inline-block;
-    position: relative;
-    width: 122px;
-    height: 35px;
-    left: 85px;
-    top: 142px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
+    background-color: #00669F;
     text-align: center;
     color: #F3F3F3;
-    z-index: 50000;
-    background-color: #00669F;
-    padding: 15px;
-    margin: 0;
+    font-size: 15px;
+    padding: 15px 37px;
+    position: absolute;
+    top: 269px;
+    left: 85px;
+    bottom: 221.48;
 }
 
 .corazon2 {
@@ -202,23 +181,14 @@ h1 {
 
 .vermas2 {
     display: inline-block;
-    position: relative;
-    width: 122px;
-    height: 35px;
-    left: 85px;
-    top: 142px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
+    background-color: #00669F;
     text-align: center;
     color: #F3F3F3;
-    z-index: 50000;
-    background-color: #00669F;
-    padding: 15px;
-    margin: 0;
+    font-size: 15px;
+    padding: 15px 37px;
+    position: absolute;
+    top: 269px;
+    left: 85px;
 }
 
 .corazon3 {
@@ -293,23 +263,14 @@ h1 {
 
 .vermas3 {
     display: inline-block;
-    position: relative;
-    width: 122px;
-    height: 35px;
-    left: 85px;
-    top: 142px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
+    background-color: #00669F;
     text-align: center;
     color: #F3F3F3;
-    z-index: 50000;
-    background-color: #00669F;
-    padding: 15px;
-    margin: 0;
+    font-size: 15px;
+    padding: 15px 37px;
+    position: absolute;
+    top: 269px;
+    left: 85px;
 }
 
 footer {
