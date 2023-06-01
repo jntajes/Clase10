@@ -1,301 +1,98 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-  }
-  
-main {
-    display: block;
-    background-color: #E5E5E5;
-    position: relative;
+    font-family: 'Roboto', serif ,sans-serif;
+    font-weight: 400;
 }
 
 header {
     background-color: #1CD1B0;
+    padding: 15px 0;
+}
+
+header p {
+    color: black;
     font-size: 15px;
-    padding: 10px 886px 10px 27px;
+    margin-left: 20px;
 }
 
 .heroes {
-    background-color: #00669F;
     position: sticky;
     top: 0;
+    background-color: #00669F;
+    padding: 30px 20px;
     font-size: 40px;
-    padding: 28px;
-    z-index: 100;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-}
-
-.corazon1 {
-    position: absolute;
-    left: 53px;
-    top: 308.88px;
-    z-index: 1000;
-}
-
-.fondo-bat1 {
-    position: absolute;
-    width: 300px;
-    height: 193px;
-    left: 32px;
-    top: 293px;
-}
-
-.perfil-bat1 {
-    position: absolute;
-    width: 120px;
-    height: 118px;
-    left: 122px;
-    top: 421px;
-    z-index: 100;
-}
-
-.perfil-bat1 img {
-    border-radius: 100%;
-}
-
-.articulo1 {
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 32px;
-    top: 485px;
-    background: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.subtitulo1 {
-    position: relative;
-    width: 122px;
-    height: 35px;
-    left: 89px;
-    top: 73px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    color: #000000;
-    z-index: 50000;
-}
-
-.parrafo1 {
-    position: relative;
-    width: 267px;
-    height: 113px;
-    left: 16px;
-    top: 118px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-.vermas1 {
-    display: inline-block;
-    background-color: #00669F;
-    text-align: center;
-    color: #F3F3F3;
-    font-size: 15px;
-    padding: 15px 37px;
-    position: absolute;
-    top: 269px;
-    left: 85px;
-    bottom: 221.48;
-}
-
-.corazon2 {
-    position: absolute;
-    left: 377.88px;
-    top: 314px;
+    box-shadow: 0px 3px 7px -3px rgb(0 0 0);
     z-index: 10;
 }
 
-.fondo-harley {
-    position: absolute;
-    width: 300px;
-    height: 193px;
-    left: 362px;
-    top: 293px;
-}
-
-.perfil-harley {
-    position: absolute;
-    width: 122px;
-    height: 122px;
-    left: 451px;
-    top: 419px;
-    z-index: 100;
-}
-
-.perfil-harley img {
-    border-radius: 100%;
-}
-
-.articulo2 {
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 362px;
-    top: 485px;
-    background: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.subtitulo2 {
-    position: relative;
-    width: 200px;
-    height: 35px;
-    left: 65px;
-    top: 73px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    color: #000000;
-    z-index: 50000;
-}
-
-.parrafo2 {
-    position: relative;
-    width: 267px;
-    height: 113px;
-    left: 16px;
-    top: 118px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-.vermas2 {
+.box {
     display: inline-block;
-    background-color: #00669F;
-    text-align: center;
-    color: #F3F3F3;
-    font-size: 15px;
-    padding: 15px 37px;
-    position: absolute;
-    top: 269px;
-    left: 85px;
-}
-
-.corazon3 {
-    position: absolute;
-    left: 713px;
-    top: 309.88px;
-    z-index: 10;
-}
-
-.fondo-bat2 {
-    position: absolute;
     width: 300px;
-    height: 193px;
-    left: 692px;
-    top: 294px;
-}
-
-.perfil-bat2 {
-    position: absolute;
-    width: 122px;
-    height: 120px;
-    left: 781px;
-    top: 420px;
-    z-index: 100;
-}
-
-.perfil-bat2 img {
-    border-radius: 100%;
-}
-
-.articulo3 {
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 692px;
-    top: 486px;
-    background: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.subtitulo3 {
+    margin: 150px 10px;
     position: relative;
-    width: 200px;
-    height: 35px;
-    left: 89px;
-    top: 73px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    box-shadow: 0px 3px 7px -3px rgb(0 0 0);
+}
+
+.fondobatman {
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 190px;
+    border-radius: 5px;
+}
+
+.corazon {
+    margin: 10px;
+}
+
+.contenidobatman {
+    padding: 40px 40px;
+    background-color: #F3F3F3;
+}
+
+.perfil {
+    position: absolute;
+    width: 125px;
+    top: 130px;
+    left: 87.5px;
+    border-radius: 65px;
+    box-shadow: 0px 3px 7px -3px rgb(0 0 0);
+}
+
+.box h2 {
+    text-align: center;
+    margin: 40px 0 20px;
     font-size: 30px;
-    line-height: 35px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    color: #000000;
-    z-index: 50000;
 }
 
-.parrafo3 {
-    position: relative;
-    width: 267px;
-    height: 113px;
-    left: 16px;
-    top: 118px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-}
-
-.vermas3 {
-    display: inline-block;
+button {
     background-color: #00669F;
-    text-align: center;
-    color: #F3F3F3;
-    font-size: 15px;
-    padding: 15px 37px;
-    position: absolute;
-    top: 269px;
-    left: 85px;
+    width: 130px;
+    height: 48.52px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 47.5px;
+    color: white;
+    border: none;
+}
+
+.fondoharley {
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 190px;
+    border-radius: 5px;
 }
 
 footer {
-    position: absolute;
-    width: 1024px;
-    height: 51px;
-    left: 0px;
-    top: 972px;
-    background: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    background-color: #00669F;
+    padding: 16px;
 }
 
-footer p {
-    position: relative;
-    width: 337px;
-    height: 19px;
-    left: 16px;
-    top: 16px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    text-align: center;
-    color: #FFF9F9;
-    z-index: 100;
+main {
+    width: 1024px;
+    margin: 0 auto;
 }
